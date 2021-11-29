@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-biru fixed w-full h-14 px-4 flex justify-between items-center">
+  <nav class="bg-biru fixed w-full h-16 px-4 flex justify-between items-center">
     <div class="text-white font-bold text-lg">ABED</div>
 
     <div>
