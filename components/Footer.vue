@@ -1,5 +1,5 @@
 <template>
-  <footer class="px-4 py-2 bg-biru text-white text-sm">
+  <footer class="px-4 py-2 bg-biru text-white text-sm text-center">
     &copy; {{ new Date().getFullYear() }} -
     <span>
       <a
