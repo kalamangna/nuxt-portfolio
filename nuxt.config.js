@@ -7,7 +7,6 @@ export default {
   target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-
   head: {
     title: title,
     meta: [
@@ -106,4 +105,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Sitemap configuration
+  sitemap: {
+    hostname: "https://kalamangna.netlify.app",
+  },
 }
