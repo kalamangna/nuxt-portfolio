@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      montserrat: "Montserrat, sans-serif",
+    },
     extend: {
       colors: {
         biru: "#001E26",

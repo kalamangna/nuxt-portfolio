@@ -5,7 +5,7 @@
         class="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center text-center lg:text-left"
       >
         <div class="flex-1" data-aos="fade-up">
-          <div class="text-5xl font-bold">Hi 👋</div>
+          <div class="text-5xl font-bold font-montserrat">Hi 👋</div>
           <div class="text-lg mt-6">
             You can call me <b>Abed</b>. I am a Frontend Web Developer based in
             Makassar, Indonesia. For the past two years, I have professional
