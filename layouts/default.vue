@@ -2,7 +2,7 @@
   <div>
     <Header />
 
-    <main class="bg-biru py-20">
+    <main class="bg-primary py-20">
       <Nuxt />
     </main>
 

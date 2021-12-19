@@ -15,7 +15,7 @@
           </div>
 
           <button
-            class="bg-ijo px-3 py-2 rounded text-sm hover:bg-ijoterang text-black mt-6"
+            class="bg-secondary px-3 py-2 rounded text-sm hover:bg-secondaryHover text-black mt-6"
           >
             VIEW MY RESUME
           </button>
