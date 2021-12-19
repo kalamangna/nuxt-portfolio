@@ -84,10 +84,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss",
-  ],
+  buildModules: ["@nuxtjs/google-analytics", "@nuxtjs/tailwindcss"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/sitemap"],
@@ -98,5 +95,11 @@ export default {
   // Sitemap configuration
   sitemap: {
     hostname: "https://kalamangna.netlify.app",
+  },
+
+  // GA configuration
+  googleAnalytics: {
+    id: "G-7TD0NB820M",
+    dev: process.env.NODE_ENV !== "production",
   },
 }
