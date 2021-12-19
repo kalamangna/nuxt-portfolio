@@ -90,18 +90,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/pwa
-    "@nuxtjs/pwa",
-    "@nuxtjs/sitemap",
-  ],
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: "en",
-    },
-  },
+  modules: ["@nuxtjs/sitemap"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
