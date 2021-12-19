@@ -38,7 +38,7 @@ export default {
       },
       {
         property: "og:image",
-        content: `https://${url}/icon.png`,
+        content: `https://${url}/meta.png`,
       },
 
       // Twitter Meta Tags
@@ -64,7 +64,7 @@ export default {
       },
       {
         name: "twitter:image",
-        content: `https://${url}/icon.png`,
+        content: `https://${url}/meta.png`,
       },
       {
         name: "twitter:creator",
