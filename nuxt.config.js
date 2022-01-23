@@ -84,10 +84,10 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/google-analytics", "@nuxtjs/tailwindcss"],
+  buildModules: ["@nuxtjs/svg", "@nuxtjs/tailwindcss"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/sitemap"],
+  modules: ["@nuxtjs/sitemap", "vue-scrollto/nuxt"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

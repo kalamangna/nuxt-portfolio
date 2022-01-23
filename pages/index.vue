@@ -1,46 +1,39 @@
 <template>
   <div class="text-white">
-    <section class="py-20 lg:py-32 relative">
-      <div
-        class="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center text-center lg:text-left"
-      >
-        <div class="flex-1" data-aos="fade-up">
-          <div class="text-5xl font-bold font-montserrat">Hi 👋</div>
-          <div class="text-lg mt-6">
-            You can call me <b>Abed</b>. I am a Frontend Web Developer based in
-            Makassar, Indonesia. For the past two years, I have professional
-            experience in the IT industry, mainly website development.
-            Currently, I work using Javascript frameworks, such as Vue, Nuxt,
-            React and Next.
-          </div>
-
-          <button
-            class="bg-secondary px-3 py-2 rounded text-sm hover:bg-secondaryHover text-black mt-6"
-          >
-            VIEW MY RESUME
-          </button>
+    <section class="py-16 relative">
+      <div class="container mx-auto px-4 text-center">
+        <div class="text-4xl md:text-5xl font-bold font-montserrat">
+          Hello, I am Abed 👋
         </div>
-
-        <div class="flex-1 flex justify-center items-center" data-aos="fade-up">
-          <Photo />
+        <div class="text-xl md:text-2xl mt-4">
+          A Frontend Web Developer based in Makassar, Indonesia.
         </div>
+      </div>
 
-        <div class="flex-1" data-aos="fade-up">
-          <div class="text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus enim assumenda, delectus repellendus perspiciatis amet
-            ut nisi officiis, adipisci tempore modi vitae earum dolorum ratione
-            temporibus. Repellat, dolores sequi.
-          </div>
-        </div>
+      <div class="mt-16">
+        <Photo />
+      </div>
+    </section>
+
+    <section class="py-20 bg-primaryLighter">
+      <div class="container mx-auto px-4">
+        <Stacks />
+      </div>
+    </section>
+
+    <section class="py-20" id="contacts">
+      <div class="container mx-auto px-4">
+        <Contacts />
       </div>
     </section>
   </div>
 </template>
 
 <script>
+import Contacts from "~/components/Contacts.vue"
 import Photo from "~/components/Photo.vue"
+import Stacks from "~/components/Stacks.vue"
 export default {
-  components: { Photo },
+  components: { Photo, Stacks, Contacts },
 }
 </script>
