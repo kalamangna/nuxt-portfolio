@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div class="green-circle">
-      <nuxt-img src="/photo.png" format="webp" />
+      <nuxt-img src="/photo.png" format="webp" alt="photo profile" />
     </div>
   </div>
 </template>
