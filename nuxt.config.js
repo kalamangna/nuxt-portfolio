@@ -3,6 +3,8 @@ const description = `You can call me Abed. I'm a Frontend Web Developer based in
 const url = "kalamangna.netlify.app"
 
 export default {
+  dev: process.env.NODE_ENV !== "production",
+
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
@@ -78,7 +80,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ["~/plugins/aos.client.js"],
+  plugins: ["~/plugins/aos.client.js", "~/plugins/gtag.client.js"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

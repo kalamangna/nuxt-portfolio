@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center font-montserrat font-bold text-3xl">Contacts</div>
+    <div class="text-center font-bold text-3xl">Contacts</div>
 
     <div class="mt-10 flex items-center gap-8 justify-center">
       <div v-for="contact in contacts" :key="contact.name">

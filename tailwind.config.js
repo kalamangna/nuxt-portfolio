@@ -3,6 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
+      poppins: "Poppins, sans-serif",
       montserrat: "Montserrat, sans-serif",
     },
     extend: {
@@ -16,7 +17,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      fontWeight: ["hover"],
+    },
   },
   plugins: [],
 }

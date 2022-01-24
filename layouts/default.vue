@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="font-poppins">
     <Header />
 
-    <main class="bg-primary py-20">
+    <main class="py-20 bg-primary text-white">
       <Nuxt />
     </main>
 
