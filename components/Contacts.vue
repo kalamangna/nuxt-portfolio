@@ -8,12 +8,16 @@
           :href="contact.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex items-center hover:text-secondary"
+          class="hover:text-secondary flex flex-col items-center gap-2"
         >
           <div
             v-html="require(`~/assets/icons/${contact.name}.svg?raw`)"
             class="h-10 w-10"
           />
+
+          <div class="uppercase">
+            {{ contact.name }}
+          </div>
         </a>
       </div>
     </div>

@@ -8,6 +8,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: "en",
+    },
     title: title,
     meta: [
       { charset: "utf-8" },
@@ -84,7 +87,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/svg", "@nuxtjs/tailwindcss"],
+  buildModules: ["@nuxtjs/svg", "@nuxt/image", "@nuxtjs/tailwindcss"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/sitemap", "vue-scrollto/nuxt"],

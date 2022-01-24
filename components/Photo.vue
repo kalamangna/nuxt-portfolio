@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div class="green-circle">
-      <img src="~/assets/img/photo.png" alt="photo profile" />
+      <nuxt-img src="/photo.png" format="webp" />
     </div>
   </div>
 </template>
@@ -22,6 +22,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   height: 18rem;
+  width: auto;
 }
 
 /* md */
