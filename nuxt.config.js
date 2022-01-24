@@ -1,10 +1,8 @@
 const title = "Abd Dzuljalali Wal Ikram - Frontend Web Developer"
-const description = `You can call me Abed. I'm a Frontend Web Developer based in Makassar, Indonesia.`
+const description = `I am Abed, a Frontend Web Developer based in Sinjai, Indonesia.`
 const url = "kalamangna.netlify.app"
 
 export default {
-  dev: process.env.NODE_ENV !== "production",
-
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
@@ -97,11 +95,5 @@ export default {
   // Sitemap configuration
   sitemap: {
     hostname: "https://kalamangna.netlify.app",
-  },
-
-  // GA configuration
-  googleAnalytics: {
-    id: "G-7TD0NB820M",
-    dev: process.env.NODE_ENV !== "production",
   },
 }
