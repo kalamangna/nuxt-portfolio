@@ -2,7 +2,7 @@
   <div class="font-poppins">
     <Header />
 
-    <main class="py-20 bg-primary text-white">
+    <main class="bg-primary text-white">
       <Nuxt />
     </main>
 

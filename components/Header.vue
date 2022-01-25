@@ -1,5 +1,8 @@
 <template>
-  <nav class="bg-primary fixed w-full h-20 flex items-center z-10" id="top">
+  <nav
+    class="bg-primary fixed w-full h-20 flex items-center z-10 shadow"
+    id="top"
+  >
     <div class="flex justify-between items-center container mx-auto px-4">
       <div
         class="text-white font-bold text-lg cursor-pointer"

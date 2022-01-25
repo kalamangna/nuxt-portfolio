@@ -9,8 +9,8 @@
 <style scoped>
 .green-circle {
   background: #00dc82;
-  height: 16rem;
-  width: 16rem;
+  height: 20rem;
+  width: 20rem;
   border-radius: 50%;
 }
 
@@ -21,16 +21,12 @@ img {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  height: 18rem;
+  height: 24rem;
   width: auto;
 }
 
 /* md */
 @media (min-width: 768px) {
-  .green-circle {
-    height: 18rem;
-    width: 18rem;
-  }
 }
 
 /* lg */
@@ -40,12 +36,8 @@ img {
 /* xl */
 @media (min-width: 1280px) {
   .green-circle {
-    height: 24rem;
-    width: 24rem;
-  }
-
-  img {
-    height: 24rem;
+    height: 22rem;
+    width: 22rem;
   }
 }
 </style>

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <section class="py-16 relative">
+    <section
+      class="relative h-screen pt-20 flex flex-col justify-center gap-20"
+    >
       <div class="container mx-auto px-4 text-center">
         <div class="text-4xl md:text-5xl font-bold">Hello, I am Abed 👋</div>
         <div class="text-xl md:text-2xl mt-4">
@@ -16,7 +18,7 @@
         </div>
       </div>
 
-      <div class="mt-16">
+      <div>
         <Photo />
       </div>
     </section>
