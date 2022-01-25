@@ -1,15 +1,11 @@
 <template>
   <div class="font-poppins">
-    <Header />
+    <LazyHeader />
 
     <main class="bg-primary text-white">
       <Nuxt />
     </main>
 
-    <Footer />
+    <LazyFooter />
   </div>
 </template>
-
-<script>
-export default {}
-</script>

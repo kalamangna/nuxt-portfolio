@@ -19,29 +19,20 @@
       </div>
 
       <div>
-        <Photo />
+        <LazyPhoto />
       </div>
     </section>
 
     <section class="py-20 bg-primaryLighter">
       <div class="container mx-auto px-4">
-        <Stacks />
+        <LazyStacks />
       </div>
     </section>
 
     <section class="py-20" id="contacts">
       <div class="container mx-auto px-4">
-        <Contacts />
+        <LazyContacts />
       </div>
     </section>
   </div>
 </template>
-
-<script>
-import Contacts from "~/components/Contacts.vue"
-import Photo from "~/components/Photo.vue"
-import Stacks from "~/components/Stacks.vue"
-export default {
-  components: { Photo, Stacks, Contacts },
-}
-</script>

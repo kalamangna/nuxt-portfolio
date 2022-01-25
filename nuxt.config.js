@@ -81,7 +81,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ["~/plugins/aos.client.js", "~/plugins/gtag.client.js"],
+  plugins: ["~/plugins/aos.client.js"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -95,7 +95,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/sitemap", "vue-scrollto/nuxt"],
+  modules: ["@nuxtjs/sitemap", "vue-scrollto/nuxt", "@nuxtjs/google-gtag"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
@@ -103,5 +103,14 @@ export default {
   // Sitemap configuration
   sitemap: {
     hostname: "https://kalamangna.netlify.app",
+  },
+
+  // GA configuration
+  "google-gtag": {
+    id: "G-7TD0NB820M",
+    config: {
+      send_page_view: false,
+    },
+    debug: false,
   },
 }
