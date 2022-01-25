@@ -87,7 +87,12 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/svg", "@nuxt/image", "@nuxtjs/tailwindcss"],
+  buildModules: [
+    "nuxt-vite",
+    "@nuxtjs/svg",
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/sitemap", "vue-scrollto/nuxt"],

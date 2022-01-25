@@ -13,10 +13,7 @@
           rel="noopener noreferrer"
           class="hover:text-secondary flex flex-col items-center gap-2"
         >
-          <div
-            v-html="require(`~/assets/icons/${contact.name}.svg?raw`)"
-            class="h-10 w-10"
-          />
+          <div v-html="contact.icon" class="h-10 w-10" />
 
           <div class="uppercase">
             {{ contact.name }}
@@ -28,6 +25,10 @@
 </template>
 
 <script>
+import EmailLogo from "~/assets/icons/email.svg?raw"
+import GithubLogo from "~/assets/icons/github.svg?raw"
+import LinkedInLogo from "~/assets/icons/linkedin.svg?raw"
+
 export default {
   data() {
     return {
@@ -35,14 +36,17 @@ export default {
         {
           name: "email",
           link: "mailto:kalamangna@gmail.com",
+          icon: EmailLogo,
         },
         {
           name: "github",
           link: "https://github.com/kalamangna",
+          icon: GithubLogo,
         },
         {
           name: "linkedin",
           link: "https://www.linkedin.com/in/kalamangna",
+          icon: LinkedInLogo,
         },
       ],
     }
