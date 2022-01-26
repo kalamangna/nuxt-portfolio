@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container mx-auto px-4">
     <div class="text-center">
       <div class="font-bold text-3xl">Stacks</div>
       <div class="mt-2 text-lg">Specializing in</div>

@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="container mx-auto px-4">
     <div class="text-center">
       <div class="font-bold text-3xl">Contacts</div>
       <div class="mt-2 text-lg">Find me on</div>
     </div>
 
     <div class="mt-10 flex items-center gap-8 justify-center">
-      <div v-for="contact in contacts" :key="contact.name">
+      <div v-for="contact in contacts" :key="contact.name" class="w-16">
         <a
           :href="contact.link"
           target="_blank"

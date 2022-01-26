@@ -1,11 +1,11 @@
 <template>
   <div class="font-poppins">
-    <LazyHeader />
+    <Header />
 
     <main class="bg-primary text-white">
       <Nuxt />
     </main>
 
-    <LazyFooter />
+    <Footer />
   </div>
 </template>

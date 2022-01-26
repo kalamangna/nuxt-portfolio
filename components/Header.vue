@@ -11,14 +11,12 @@
         ABED
       </div>
 
-      <div>
-        <button
-          class="bg-secondary px-3 py-2 rounded text-sm hover:bg-secondaryLighter font-montserrat font-medium"
-          v-scroll-to="'#contacts'"
-        >
-          LET'S TALK
-        </button>
-      </div>
+      <button
+        class="bg-secondary px-3 py-2 rounded text-sm hover:bg-secondaryLighter font-montserrat font-medium"
+        v-scroll-to="'#contacts'"
+      >
+        LET'S TALK
+      </button>
     </div>
   </nav>
 </template>
