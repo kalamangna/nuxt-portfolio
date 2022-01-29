@@ -1,6 +1,6 @@
 const title = "Abd Dzuljalali Wal Ikram - Frontend Web Developer"
 const description = `I am Abed, a Frontend Web Developer based in Sinjai, Indonesia.`
-const url = "kalamangna.netlify.app"
+const url = "kalamangna.dev"
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -102,12 +102,12 @@ export default {
 
   // Sitemap configuration
   sitemap: {
-    hostname: "https://kalamangna.netlify.app",
+    hostname: "https://kalamangna.dev",
   },
 
   // GA configuration
   "google-gtag": {
-    id: "G-7TD0NB820M",
+    id: "G-HN9K173VQK",
     config: {
       send_page_view: false,
     },
