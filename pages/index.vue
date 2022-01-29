@@ -14,5 +14,9 @@
     <section class="py-20" id="contacts">
       <Contacts />
     </section>
+
+    <section class="py-20 bg-primaryLighter">
+      <Upwork />
+    </section>
   </div>
 </template>

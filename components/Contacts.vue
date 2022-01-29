@@ -1,9 +1,7 @@
 <template>
-  <div class="container mx-auto px-4">
-    <div class="text-center">
-      <div class="font-bold text-3xl">Contacts</div>
-      <div class="mt-2 text-lg">Find me on</div>
-    </div>
+  <div class="container mx-auto px-4 text-center">
+    <div class="font-bold text-3xl">Contacts</div>
+    <div class="mt-2 text-lg">Find me on</div>
 
     <div class="mt-10 flex items-center gap-8 justify-center">
       <div v-for="contact in contacts" :key="contact.name" class="w-16">
@@ -15,7 +13,7 @@
         >
           <div v-html="contact.icon" class="h-10 w-10" />
 
-          <div class="uppercase">
+          <div class="uppercase font-montserrat">
             {{ contact.name }}
           </div>
         </a>
