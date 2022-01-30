@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center" data-aos="fade-up">
     <div class="green-circle">
       <nuxt-img src="/photo.png" format="webp" alt="photo profile" />
     </div>

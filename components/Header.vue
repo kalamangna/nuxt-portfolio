@@ -12,7 +12,15 @@
       </div>
 
       <button
-        class="bg-secondary px-4 py-2 rounded text-sm hover:bg-secondaryLighter font-montserrat font-medium"
+        class="
+          bg-secondary
+          px-4
+          py-2
+          rounded
+          text-sm
+          hover:bg-secondaryLighter
+          font-montserrat font-medium
+        "
         v-scroll-to="'#contacts'"
       >
         LET'S TALK

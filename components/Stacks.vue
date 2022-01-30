@@ -1,8 +1,8 @@
 <template>
-  <div class="container mx-auto px-4">
-    <div class="text-center">
-      <div class="font-bold text-3xl">Stacks</div>
-      <div class="mt-2 text-lg">Specializing in</div>
+  <Container>
+    <div class="font-bold text-3xl" data-aos="fade-up">Stacks</div>
+    <div class="mt-2 text-lg" data-aos="fade-up">
+      Specializing in Website Development
     </div>
 
     <!-- <div class="mt-10 flex justify-center">
@@ -10,7 +10,7 @@
         {{ name }}
       </div>
     </div> -->
-  </div>
+  </Container>
 </template>
 
 <script>
@@ -28,7 +28,7 @@ export default {
           name: "React",
         },
       ],
-    }
+    };
   },
-}
+};
 </script>

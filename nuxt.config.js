@@ -3,6 +3,8 @@ const description = `I am Abed, a Frontend Web Developer based in Sinjai, Indone
 const url = "kalamangna.dev"
 
 export default {
+  dev: process.env.NODE_ENV !== "production",
+
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
