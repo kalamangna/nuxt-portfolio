@@ -1,7 +1,7 @@
 <template>
   <Container>
-    <div class="font-bold text-3xl" data-aos="fade-up">Stacks</div>
-    <div class="mt-2 text-lg" data-aos="fade-up">
+    <div class="font-bold text-3xl" data-aos="zoom-in-up">Stacks</div>
+    <div class="mt-2 text-lg" data-aos="zoom-in-up">
       Specializing in Website Development
     </div>
 

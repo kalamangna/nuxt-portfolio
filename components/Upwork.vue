@@ -1,9 +1,11 @@
 <template>
   <Container>
-    <div class="font-bold text-3xl" data-aos="fade-up">Upwork</div>
-    <div class="mt-2 text-lg" data-aos="fade-up">Hire me as a freelancer</div>
+    <div class="font-bold text-3xl" data-aos="zoom-in-up">Upwork</div>
+    <div class="mt-2 text-lg" data-aos="zoom-in-up">
+      Hire me as a freelancer
+    </div>
 
-    <div class="mt-10" data-aos="fade-up">
+    <div class="mt-10" data-aos="zoom-in-up">
       <a
         href="https://www.upwork.com/freelancers/~01c66fa1bf527349a1"
         target="_blank"

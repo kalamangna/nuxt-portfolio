@@ -1,12 +1,9 @@
 <template>
   <Container>
-    <div class="font-bold text-3xl" data-aos="fade-up">Contacts</div>
-    <div class="mt-2 text-lg" data-aos="fade-up">Get in touch</div>
+    <div class="font-bold text-3xl" data-aos="zoom-in-up">Contacts</div>
+    <div class="mt-2 text-lg" data-aos="zoom-in-up">Get in touch</div>
 
-    <div
-      class="mt-10 flex items-center gap-8 justify-center"
-      data-aos="fade-up"
-    >
+    <div class="mt-10 flex items-center gap-8 justify-center">
       <div v-for="contact in contacts" :key="contact.name" class="w-16">
         <a
           :href="contact.link"
@@ -14,9 +11,9 @@
           rel="noopener noreferrer"
           class="hover:text-secondary flex flex-col items-center gap-2"
         >
-          <div v-html="contact.icon" class="h-10 w-10" />
+          <div v-html="contact.icon" class="h-10 w-10" data-aos="zoom-in-up" />
 
-          <div class="uppercase font-montserrat">
+          <div class="uppercase font-montserrat" data-aos="zoom-in-up">
             {{ contact.name }}
           </div>
         </a>
